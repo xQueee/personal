@@ -13,8 +13,8 @@ class Character {
 
   void addItemToInventory(Item* item);
   void removeItemFromInventory(Item* item);
-  virtual void equipItem(Item* item);
-  virtual void unequipItem(Item* item);
+  void equipItem(Item* item);
+  void unequipItem(Item* item);
 
   // Setters
   void setName(std::string name);
